@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { useTheme } from "@/context/ThemeContext";
 import {
@@ -11,8 +11,6 @@ import {
   X,
   Search,
   ChevronDown,
-  Layers,
-  Sparkles,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CATEGORIES } from "@/calculators/registry";
@@ -21,6 +19,26 @@ export function Header() {
   const { resolvedTheme, toggleTheme } = useTheme();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [categoryDropdownOpen, setCategoryDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent | TouchEvent) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setCategoryDropdownOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+    };
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -52,38 +70,68 @@ export function Header() {
             Home
           </Link>
 
-          {/* Categories Dropdown */}
-          <div className="relative">
-            <button
-              onClick={() => setCategoryDropdownOpen(!categoryDropdownOpen)}
-              onBlur={() => setTimeout(() => setCategoryDropdownOpen(false), 200)}
-              className="flex items-center space-x-1 text-foreground/80 hover:text-primary transition-colors py-2"
-            >
-              <span>Categories</span>
-              <ChevronDown
-                className={`h-4 w-4 transition-transform ${
-                  categoryDropdownOpen ? "rotate-180" : ""
-                }`}
-              />
-            </button>
+          {/* Categories Dropdown Container with Hover + Click Support */}
+          <div
+            ref={dropdownRef}
+            className="relative"
+            onMouseEnter={() => setCategoryDropdownOpen(true)}
+            onMouseLeave={() => setCategoryDropdownOpen(false)}
+          >
+            <div className="flex items-center space-x-1 py-2">
+              <Link
+                href="/categories"
+                onClick={() => setCategoryDropdownOpen(false)}
+                className="text-foreground/80 hover:text-primary transition-colors font-medium"
+              >
+                Categories
+              </Link>
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setCategoryDropdownOpen((prev) => !prev);
+                }}
+                className="p-1 rounded text-foreground/80 hover:text-primary transition-colors focus:outline-none"
+                aria-label="Toggle categories menu"
+                aria-expanded={categoryDropdownOpen}
+              >
+                <ChevronDown
+                  className={`h-4 w-4 transition-transform duration-200 ${
+                    categoryDropdownOpen ? "rotate-180 text-primary" : ""
+                  }`}
+                />
+              </button>
+            </div>
 
             {categoryDropdownOpen && (
-              <div className="absolute left-0 mt-1 w-64 rounded-xl border border-border bg-card p-2 shadow-lg z-50">
-                <div className="text-xs font-semibold text-muted-foreground px-2 py-1 uppercase tracking-wider">
-                  Browse by Domain
-                </div>
-                {CATEGORIES.map((cat) => (
+              <div className="absolute left-0 top-full mt-1 w-72 rounded-2xl border border-border bg-card p-3 shadow-xl z-50 animate-in fade-in-0 zoom-in-95">
+                <div className="flex items-center justify-between px-2 py-1.5 border-b border-border/60 mb-2">
+                  <span className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider">
+                    Browse by Domain
+                  </span>
                   <Link
-                    key={cat.id}
-                    href={`/${cat.slug}`}
-                    className="flex items-center justify-between px-2.5 py-2 rounded-lg text-sm text-foreground/90 hover:bg-muted hover:text-primary transition-colors"
+                    href="/categories"
+                    onClick={() => setCategoryDropdownOpen(false)}
+                    className="text-[11px] font-semibold text-primary hover:underline"
                   >
-                    <span>{cat.name}</span>
-                    <span className="text-xs text-muted-foreground">
-                      {cat.calculatorCount}+
-                    </span>
+                    View All (10) →
                   </Link>
-                ))}
+                </div>
+                <div className="space-y-0.5 max-h-[360px] overflow-y-auto">
+                  {CATEGORIES.map((cat) => (
+                    <Link
+                      key={cat.id}
+                      href={`/${cat.slug}`}
+                      onClick={() => setCategoryDropdownOpen(false)}
+                      className="flex items-center justify-between px-3 py-2 rounded-xl text-sm text-foreground hover:bg-primary/10 hover:text-primary transition-all group"
+                    >
+                      <span className="font-medium">{cat.name}</span>
+                      <span className="text-xs text-muted-foreground group-hover:text-primary">
+                        {cat.calculatorCount}+
+                      </span>
+                    </Link>
+                  ))}
+                </div>
               </div>
             )}
           </div>
@@ -120,7 +168,7 @@ export function Header() {
               className="hidden lg:flex items-center space-x-2 text-muted-foreground hover:text-foreground text-xs"
             >
               <Search className="h-3.5 w-3.5" />
-              <span>Search 60+ tools...</span>
+              <span>Search 50+ tools...</span>
               <kbd className="pointer-events-none inline-flex h-4 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
                 /
               </kbd>
@@ -167,6 +215,13 @@ export function Header() {
               Home
             </Link>
             <Link
+              href="/categories"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block px-3 py-2 rounded-md text-base font-medium text-primary hover:bg-muted font-bold"
+            >
+              Categories Overview
+            </Link>
+            <Link
               href="/all"
               onClick={() => setMobileMenuOpen(false)}
               className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:bg-muted"
@@ -190,16 +245,25 @@ export function Header() {
           </div>
 
           <div className="border-t border-border pt-3">
-            <p className="px-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-2">
-              Popular Categories
-            </p>
-            <div className="grid grid-cols-2 gap-1">
-              {CATEGORIES.slice(0, 8).map((cat) => (
+            <div className="flex items-center justify-between px-3 mb-2">
+              <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                All 10 Domains
+              </p>
+              <Link
+                href="/categories"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-xs text-primary font-medium hover:underline"
+              >
+                View Hub →
+              </Link>
+            </div>
+            <div className="grid grid-cols-2 gap-1.5">
+              {CATEGORIES.map((cat) => (
                 <Link
                   key={cat.id}
                   href={`/${cat.slug}`}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="px-3 py-1.5 text-xs text-foreground/80 hover:text-primary rounded-md hover:bg-muted"
+                  className="px-3 py-2 text-xs font-medium text-foreground/90 hover:text-primary rounded-lg hover:bg-muted border border-border/40"
                 >
                   {cat.name}
                 </Link>
@@ -211,4 +275,3 @@ export function Header() {
     </header>
   );
 }
-
