@@ -93,3 +93,4 @@ Your project already includes the following production configurations:
 - **`output: 'export'`**: Zero server dependencies; pure client-side static HTML.
 - **Trailing Slashes**: Enforces clean URL routing on static hosting (`/finance/sip-calculator/index.html`).
 - **Automated CI/CD**: Pushing any code update to `main` automatically tests, builds, and deploys without manual intervention.
+
