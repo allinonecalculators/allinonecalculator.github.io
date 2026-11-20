@@ -96,6 +96,13 @@ export function Header() {
           </Link>
 
           <Link
+            href="/blog"
+            className="text-foreground/80 hover:text-primary transition-colors"
+          >
+            Blog
+          </Link>
+
+          <Link
             href="/about"
             className="text-foreground/80 hover:text-primary transition-colors"
           >
@@ -165,6 +172,13 @@ export function Header() {
               className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:bg-muted"
             >
               All Calculators
+            </Link>
+            <Link
+              href="/blog"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:bg-muted"
+            >
+              Blog
             </Link>
             <Link
               href="/about"
