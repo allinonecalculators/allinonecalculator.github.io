@@ -175,3 +175,4 @@ AllinoneCalculator/
 ├── tailwind.config.ts              # Tailwind CSS configuration
 └── vitest.config.ts                # Vitest test runner configuration
 ```
+
