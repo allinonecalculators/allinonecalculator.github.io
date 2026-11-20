@@ -34,10 +34,18 @@ jobs:
         run: npm run test
 
       - name: Build static export
-        run: npm run build
+        run: |
+          if [ -f "./CNAME" ] || [ -f "./public/CNAME" ] || [ "${{ vars.NEXT_PUBLIC_BASE_PATH }}" != "" ]; then
+            export NEXT_PUBLIC_BASE_PATH="${{ vars.NEXT_PUBLIC_BASE_PATH || '' }}"
+          elif [ "${{ github.event.repository.name }}" = "${{ github.repository_owner }}.github.io" ]; then
+            export NEXT_PUBLIC_BASE_PATH=""
+          else
+            export NEXT_PUBLIC_BASE_PATH="/${{ github.event.repository.name }}"
+          fi
+          echo "Building with NEXT_PUBLIC_BASE_PATH=$NEXT_PUBLIC_BASE_PATH"
+          npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH || '' }}
-          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL || 'https://smartcalc.io' }}
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
 
       - name: Disable Jekyll
         run: touch ./out/.nojekyll
