@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://smartcalc.io/sitemap.xml
-
+Sitemap: https://allinonecalculator.io/sitemap.xml

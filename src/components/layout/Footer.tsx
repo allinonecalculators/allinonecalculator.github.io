@@ -98,6 +98,11 @@ export function Footer() {
                   Disclaimer
                 </Link>
               </li>
+              <li>
+                <Link href="/analytics" className="hover:text-primary transition-colors">
+                  Site Analytics
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

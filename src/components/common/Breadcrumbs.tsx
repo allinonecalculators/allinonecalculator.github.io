@@ -13,6 +13,7 @@ interface BreadcrumbsProps {
 
 export function Breadcrumbs({ items }: BreadcrumbsProps) {
   // Breadcrumb schema for SEO
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://allinonecalculator.io";
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -21,13 +22,13 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://smartcalc.io/",
+        item: `${baseUrl}/`,
       },
       ...items.map((item, index) => ({
         "@type": "ListItem",
         position: index + 2,
         name: item.label,
-        item: item.href ? `https://smartcalc.io${item.href}` : undefined,
+        item: item.href ? `${baseUrl}${item.href}` : undefined,
       })),
     ],
   };

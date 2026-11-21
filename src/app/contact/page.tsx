@@ -48,7 +48,7 @@ export default function ContactPage() {
               Reach out directly for formula verification and feature requests:
             </p>
             <p className="text-sm font-semibold text-primary pt-1">
-              support@smartcalc.io
+              support@allinonecalculator.io
             </p>
           </Card>
 
