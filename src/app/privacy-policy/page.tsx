@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl font-bold">1. Introduction & Core Privacy Guarantee</h2>
           <p>
-            At SmartCalc (accessible via allinonecalculator.io), user privacy is fundamental to our platform design. Our single most important privacy feature is that <strong>calculator operations run locally on your client device</strong>.
+            At AllinoneCalculator (accessible via https://ysprajapti.github.io/AllinoneCalculator/), user privacy is fundamental to our platform design. Our single most important privacy feature is that <strong>calculator operations run locally on your client device</strong>.
           </p>
           <p>
             When you type loan amounts, annual salaries, body weights, or investment horizons into our calculators, that data remains strictly in your browser&apos;s local memory. It is never transmitted to, logged by, or stored on our servers.
@@ -77,7 +77,7 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl font-bold">6. Contact Information</h2>
           <p>
-            For questions regarding this policy, contact our compliance team at <strong>privacy@allinonecalculator.io</strong>.
+            For questions regarding this policy, contact our compliance team at <strong>https://github.com/ysprajapti</strong>.
           </p>
         </section>
       </div>

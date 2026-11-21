@@ -48,7 +48,7 @@ export default function ContactPage() {
               Reach out directly for formula verification and feature requests:
             </p>
             <p className="text-sm font-semibold text-primary pt-1">
-              support@allinonecalculator.io
+              https://github.com/ysprajapti/AllinoneCalculator
             </p>
           </Card>
 

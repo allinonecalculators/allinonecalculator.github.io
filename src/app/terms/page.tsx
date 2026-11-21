@@ -26,7 +26,7 @@ export default function TermsPage() {
         <section className="space-y-3">
           <h2 className="text-xl font-bold">1. Agreement to Terms</h2>
           <p>
-            By accessing or using the SmartCalc platform (allinonecalculator.io), you agree to be bound by these Terms and Conditions. If you disagree with any part of these terms, you should discontinue using the website.
+            By accessing or using the AllinoneCalculator platform (https://ysprajapti.github.io/AllinoneCalculator/), you agree to be bound by these Terms and Conditions. If you disagree with any part of these terms, you should discontinue using the website.
           </p>
         </section>
 

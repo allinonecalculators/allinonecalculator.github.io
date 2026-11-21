@@ -235,9 +235,9 @@ export default function AnalyticsPage() {
             <div className="flex items-start gap-2.5 p-3 rounded-xl bg-muted/60 border border-border/80">
               <CheckCircle2 className="h-4 w-4 text-emerald-500 shrink-0 mt-0.5" />
               <div>
-                <p className="font-semibold text-foreground">Custom Domain Binding</p>
+                <p className="font-semibold text-foreground">100% Free GitHub Hosting</p>
                 <p className="text-muted-foreground mt-0.5">
-                  Configured for <strong>allinonecalculator.io</strong> with free SSL encryption.
+                  Live on <strong>https://ysprajapti.github.io/AllinoneCalculator/</strong> with zero hosting costs and free SSL certificate.
                 </p>
               </div>
             </div>
@@ -247,3 +247,4 @@ export default function AnalyticsPage() {
     </div>
   );
 }
+

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://allinonecalculator.io/sitemap.xml
+Sitemap: https://ysprajapti.github.io/AllinoneCalculator/sitemap.xml

@@ -13,7 +13,7 @@ interface BreadcrumbsProps {
 
 export function Breadcrumbs({ items }: BreadcrumbsProps) {
   // Breadcrumb schema for SEO
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://allinonecalculator.io";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ysprajapti.github.io/AllinoneCalculator";
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
