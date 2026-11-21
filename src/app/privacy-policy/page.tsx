@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl font-bold">1. Introduction & Core Privacy Guarantee</h2>
           <p>
-            At AllinoneCalculator (accessible via https://ysprajapti.github.io/AllinoneCalculator/), user privacy is fundamental to our platform design. Our single most important privacy feature is that <strong>calculator operations run locally on your client device</strong>.
+            At AllinoneCalculator (accessible via https://allinonecalculator.github.io/), user privacy is fundamental to our platform design. Our single most important privacy feature is that <strong>calculator operations run locally on your client device</strong>.
           </p>
           <p>
             When you type loan amounts, annual salaries, body weights, or investment horizons into our calculators, that data remains strictly in your browser&apos;s local memory. It is never transmitted to, logged by, or stored on our servers.

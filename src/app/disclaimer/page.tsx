@@ -31,7 +31,7 @@ export default function DisclaimerPage() {
             <h2>General Informational Disclaimer</h2>
           </div>
           <p className="text-muted-foreground text-sm">
-            The information and calculation tools contained on AllinoneCalculator (https://ysprajapti.github.io/AllinoneCalculator/) are provided for general educational, estimation, and informational purposes only. While we make every reasonable effort to ensure mathematical correctness and update formulas regularly, AllinoneCalculator makes no warranties of any kind regarding accuracy, completeness, or suitability for particular financial or clinical objectives.
+            The information and calculation tools contained on AllinoneCalculator (https://allinonecalculator.github.io/) are provided for general educational, estimation, and informational purposes only. While we make every reasonable effort to ensure mathematical correctness and update formulas regularly, AllinoneCalculator makes no warranties of any kind regarding accuracy, completeness, or suitability for particular financial or clinical objectives.
           </p>
         </div>
 

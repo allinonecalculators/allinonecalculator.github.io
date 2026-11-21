@@ -37,15 +37,17 @@ jobs:
         run: |
           if [ -f "./CNAME" ] || [ -f "./public/CNAME" ] || [ "${{ vars.NEXT_PUBLIC_BASE_PATH }}" != "" ]; then
             export NEXT_PUBLIC_BASE_PATH="${{ vars.NEXT_PUBLIC_BASE_PATH || '' }}"
+            export NEXT_PUBLIC_SITE_URL="${{ vars.NEXT_PUBLIC_SITE_URL || 'https://allinonecalculator.github.io' }}"
           elif [ "${{ github.event.repository.name }}" = "${{ github.repository_owner }}.github.io" ]; then
             export NEXT_PUBLIC_BASE_PATH=""
+            export NEXT_PUBLIC_SITE_URL="https://${{ github.repository_owner }}.github.io"
           else
             export NEXT_PUBLIC_BASE_PATH="/${{ github.event.repository.name }}"
+            export NEXT_PUBLIC_SITE_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
           fi
           echo "Building with NEXT_PUBLIC_BASE_PATH=$NEXT_PUBLIC_BASE_PATH"
+          echo "Building with NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL"
           npm run build
-        env:
-          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
 
       - name: Disable Jekyll
         run: touch ./out/.nojekyll

@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://ysprajapti.github.io/AllinoneCalculator"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://allinonecalculator.github.io"),
   openGraph: {
     title: "SmartCalc - Free All-in-One Online Calculators",
     description:

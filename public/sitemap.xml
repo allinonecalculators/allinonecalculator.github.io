@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Core Main Pages -->
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/</loc>
+    <loc>https://allinonecalculator.github.io/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/all/</loc>
+    <loc>https://allinonecalculator.github.io/all/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/categories/</loc>
+    <loc>https://allinonecalculator.github.io/categories/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/blog/</loc>
+    <loc>https://allinonecalculator.github.io/blog/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/analytics/</loc>
+    <loc>https://allinonecalculator.github.io/analytics/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -34,138 +34,138 @@
 
   <!-- Categories -->
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/finance/</loc>
+    <loc>https://allinonecalculator.github.io/finance/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/loans/</loc>
+    <loc>https://allinonecalculator.github.io/loans/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/health/</loc>
+    <loc>https://allinonecalculator.github.io/health/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/math/</loc>
+    <loc>https://allinonecalculator.github.io/math/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/business/</loc>
+    <loc>https://allinonecalculator.github.io/business/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/construction/</loc>
+    <loc>https://allinonecalculator.github.io/construction/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/utilities/</loc>
+    <loc>https://allinonecalculator.github.io/utilities/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/technology/</loc>
+    <loc>https://allinonecalculator.github.io/technology/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/education/</loc>
+    <loc>https://allinonecalculator.github.io/education/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ysprajapti.github.io/AllinoneCalculator/automotive/</loc>
+    <loc>https://allinonecalculator.github.io/automotive/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Finance Calculators -->
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/finance/sip-calculator/</loc><priority>0.9</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/finance/lumpsum-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/finance/compound-interest-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/finance/simple-interest-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/finance/fd-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/finance/rd-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/finance/ppf-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/finance/cagr-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/finance/sip-calculator/</loc><priority>0.9</priority></url>
+  <url><loc>https://allinonecalculator.github.io/finance/lumpsum-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/finance/compound-interest-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/finance/simple-interest-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/finance/fd-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/finance/rd-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/finance/ppf-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/finance/cagr-calculator/</loc><priority>0.8</priority></url>
 
   <!-- Loans Calculators -->
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/loans/home-loan-emi-calculator/</loc><priority>0.9</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/loans/car-loan-emi-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/loans/personal-loan-emi-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/loans/loan-prepayment-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/loans/loan-eligibility-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/loans/credit-card-interest-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/loans/home-loan-emi-calculator/</loc><priority>0.9</priority></url>
+  <url><loc>https://allinonecalculator.github.io/loans/car-loan-emi-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/loans/personal-loan-emi-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/loans/loan-prepayment-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/loans/loan-eligibility-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/loans/credit-card-interest-calculator/</loc><priority>0.8</priority></url>
 
   <!-- Health Calculators -->
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/health/bmi-calculator/</loc><priority>0.9</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/health/bmr-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/health/tdee-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/health/calorie-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/health/water-intake-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/health/age-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/health/bmi-calculator/</loc><priority>0.9</priority></url>
+  <url><loc>https://allinonecalculator.github.io/health/bmr-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/health/tdee-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/health/calorie-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/health/water-intake-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/health/age-calculator/</loc><priority>0.8</priority></url>
 
   <!-- Math Calculators -->
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/math/percentage-calculator/</loc><priority>0.9</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/math/fraction-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/math/average-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/math/square-root-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/math/ratio-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/math/gcd-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/math/percentage-calculator/</loc><priority>0.9</priority></url>
+  <url><loc>https://allinonecalculator.github.io/math/fraction-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/math/average-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/math/square-root-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/math/ratio-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/math/gcd-calculator/</loc><priority>0.8</priority></url>
 
   <!-- Business Calculators -->
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/business/gst-calculator/</loc><priority>0.9</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/business/income-tax-calculator/</loc><priority>0.9</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/business/salary-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/business/profit-margin-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/business/markup-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/business/discount-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/business/gst-calculator/</loc><priority>0.9</priority></url>
+  <url><loc>https://allinonecalculator.github.io/business/income-tax-calculator/</loc><priority>0.9</priority></url>
+  <url><loc>https://allinonecalculator.github.io/business/salary-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/business/profit-margin-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/business/markup-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/business/discount-calculator/</loc><priority>0.8</priority></url>
 
   <!-- Construction Calculators -->
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/construction/home-construction-cost-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/construction/carpet-area-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/construction/paint-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/construction/tiles-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/construction/cement-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/construction/home-construction-cost-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/construction/carpet-area-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/construction/paint-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/construction/tiles-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/construction/cement-calculator/</loc><priority>0.8</priority></url>
 
   <!-- Utilities Calculators -->
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/utilities/length-converter/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/utilities/weight-converter/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/utilities/temperature-converter/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/utilities/currency-converter/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/utilities/speed-converter/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/utilities/fuel-mileage-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/utilities/length-converter/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/utilities/weight-converter/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/utilities/temperature-converter/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/utilities/currency-converter/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/utilities/speed-converter/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/utilities/fuel-mileage-calculator/</loc><priority>0.8</priority></url>
 
   <!-- Technology Calculators -->
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/technology/ip-subnet-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/technology/hexadecimal-converter/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/technology/unix-timestamp-converter/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/technology/password-generator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/technology/base64-encoder-decoder/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/technology/ip-subnet-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/technology/hexadecimal-converter/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/technology/unix-timestamp-converter/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/technology/password-generator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/technology/base64-encoder-decoder/</loc><priority>0.8</priority></url>
 
   <!-- Education Calculators -->
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/education/cgpa-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/education/gpa-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/education/percentage-to-marks-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/education/exam-percentage-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/education/attendance-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/education/cgpa-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/education/gpa-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/education/percentage-to-marks-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/education/exam-percentage-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/education/attendance-calculator/</loc><priority>0.8</priority></url>
 
   <!-- Automotive Calculators -->
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/automotive/fuel-cost-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/automotive/mileage-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/automotive/ev-charging-cost-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/automotive/trip-cost-calculator/</loc><priority>0.8</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/automotive/speed-time-distance-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/automotive/fuel-cost-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/automotive/mileage-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/automotive/ev-charging-cost-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/automotive/trip-cost-calculator/</loc><priority>0.8</priority></url>
+  <url><loc>https://allinonecalculator.github.io/automotive/speed-time-distance-calculator/</loc><priority>0.8</priority></url>
 
   <!-- Legal & Trust Compliance Pages (Required by Google AdSense) -->
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/about/</loc><priority>0.6</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/contact/</loc><priority>0.6</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/privacy-policy/</loc><priority>0.6</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/terms/</loc><priority>0.6</priority></url>
-  <url><loc>https://ysprajapti.github.io/AllinoneCalculator/disclaimer/</loc><priority>0.6</priority></url>
+  <url><loc>https://allinonecalculator.github.io/about/</loc><priority>0.6</priority></url>
+  <url><loc>https://allinonecalculator.github.io/contact/</loc><priority>0.6</priority></url>
+  <url><loc>https://allinonecalculator.github.io/privacy-policy/</loc><priority>0.6</priority></url>
+  <url><loc>https://allinonecalculator.github.io/terms/</loc><priority>0.6</priority></url>
+  <url><loc>https://allinonecalculator.github.io/disclaimer/</loc><priority>0.6</priority></url>
 </urlset>
