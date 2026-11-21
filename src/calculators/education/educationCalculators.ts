@@ -242,7 +242,22 @@ export const attendanceCalculatorConfig: CalculatorEngineConfig = {
   category: "education",
   categoryName: "Education & Student",
   inputs: [
-    { name: "classesAttended", label: "Classes Attended", type: "number", defaultValue: 42, min: 0, max: 500, step: 1 },
+    {
+      name: "classesAttended",
+      label: "Classes Attended",
+      type: "number",
+      defaultValue: 42,
+      min: 0,
+      max: 500,
+      step: 1,
+      options: [
+        { label: "0 (None Attended)", value: 0 },
+        { label: "25 Classes", value: 25 },
+        { label: "38 Classes", value: 38 },
+        { label: "42 Classes", value: 42 },
+        { label: "50 Classes", value: 50 },
+      ],
+    },
     { name: "totalClassesHeld", label: "Total Classes Conducted", type: "number", defaultValue: 50, min: 1, max: 500, step: 1 },
   ],
   calculate: (inputs) => {
